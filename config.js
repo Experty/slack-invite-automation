@@ -12,7 +12,7 @@ module.exports = {
   //   curl -X POST 'https://YOUR-SLACK-TEAM.slack.com/api/users.admin.invite' \
   //   --data 'email=EMAIL&token=TOKEN&set_active=true' \
   //   --compressed
-  slacktoken: process.env.SLACK_TOKEN || 'xoxp-200293779409-200293779601-228642297216-7f93379fb25824da1a8360fcff5371e8',
+  slacktoken: process.env.SLACK_TOKEN || 'xoxp-200293779409-200293779601-239980562615-d72db78bfddc02e61a50e54ac8dfd1fa',
   // an optional security measure - if it is set, then that token will be required to get invited.
   inviteToken: process.env.INVITE_TOKEN || null,
 
